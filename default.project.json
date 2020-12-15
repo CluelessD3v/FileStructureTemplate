@@ -1,0 +1,94 @@
+{
+  "name": "FileStructureTemplate",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "$className": "ReplicatedStorage",
+      "$path": "src/Shared"
+      
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/Server"
+    },
+
+    "ServerStorage":{
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Resources"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$ignoreUnknownInstances": true,
+        "$className": "StarterCharacterScripts",
+        "$path": "src/Client/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "$className": "StarterPlayerScripts",
+        "$path": "src/Client/StarterPlayerScripts"
+      }
+    },
+
+    "Workspace": {
+      "$ignoreUnknownInstances": true,
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    }
+  }
+}
