@@ -27,5 +27,7 @@ Services.ContextActionService = game:GetService("ContextActionService")
 Services.Players = game:GetService("Players")
 Services.PathfindingService = game:GetService("PathfindingService")
 Services.Teams = game:GetService("Teams")
-
+Services.UserInputService = game:GetService("UserInputService")
+Services.DataStoreService = game:GetService("DataStoreService")
+Services.RunService = game:GetService("RunService")
 return Services
